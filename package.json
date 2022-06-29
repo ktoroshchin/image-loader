@@ -1,0 +1,28 @@
+{
+  "name": "image-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js localhost 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktoroshchin/image-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktoroshchin/image-loader/issues"
+  },
+  "homepage": "https://github.com/ktoroshchin/image-loader#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "nodemon": "^2.0.18",
+    "pg": "^8.7.3"
+  }
+}
